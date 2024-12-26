@@ -1,16 +1,17 @@
 # 🐄🥛 Milk Production Prediction: Udderly Forecasted 📊✨  
 
-Ever wondered how much moo juice will flow next year? This project combines historical data and machine learning to predict monthly milk production. Aimed at optimizing dairy production and supply chains, this solution is udderly efficient! 🥛🐮
+Ever wondered how much moo juice will flow next year? This project combines historical data and machine learning to predict monthly milk production. Aimed at optimizing dairy production and supply chains, this solution is udderly efficient! 🥛🐮  
 
 ---
 
 ## 📋 Table of Contents  
 - [📖 Overview](#-overview)  
 - [📊 Dataset](#-dataset)  
-- [🛠️ Step-by-Step Execution](#️-step-by-step-execution)  
+- [🛠️ Step-by-Step Execution](#%ef%b8%8f-step-by-step-execution)  
 - [📂 Project Structure](#-project-structure)  
 - [📈 Results](#-results)  
-- [📜 License](#-license)  
+- [🔜 License](#-license)  
+- [🤝 Contributions](#-contributions)  
 
 ---
 
@@ -19,14 +20,14 @@ Milk production prediction is essential for managing resources, improving effici
 
 **✨ Highlights:**  
 - 🔍 Time series analysis for robust forecasting.  
-- 🧹 Data preprocessing for cleaner insights.  
+- 🥳 Data preprocessing for cleaner insights.  
 - ✅ Simple, reproducible steps to understand the process.  
 
 ---
 
 ## 📊 Dataset  
 The project uses `monthly-milk-production.csv`, a dataset containing:  
-- 🗓️ **Month:** The observation period.  
+- 🕒 **Month:** The observation period.  
 - 🥛 **Milk Production:** The amount of milk produced.  
 
 ---
@@ -68,8 +69,8 @@ The project uses `monthly-milk-production.csv`, a dataset containing:
 
 ## 📂 Project Structure  
 - 📓 `milk-production-prediction.ipynb`: The main notebook for the project.  
-- 📄 `monthly-milk-production.csv`: Historical milk production dataset.  
-- 📝 `requirements.txt`: A list of Python libraries needed to run the project.  
+- 🗋 `monthly-milk-production.csv`: Historical milk production dataset.  
+- 🖋️ `requirements.txt`: A list of Python libraries needed to run the project.  
 
 ---
 
@@ -78,9 +79,41 @@ The model forecasts milk production trends for the next 12 months. Visualization
 
 ---
 
-## 📜 License  
+## 🔜 License  
 This project is licensed under the **Apache License 2.0**. See the [LICENSE](LICENSE) file for more information.  
 
 ---
 
-Feel free to milk this repository for knowledge or contribute your improvements—let’s churn out some amazing predictions together! 🐄✨  
+## 🌐 Tech Stack  
+- **Programming Language**: Python 👨‍💻  
+- **Data Processing and Analysis**:  
+  - `numpy` 🤖  
+  - `pandas` 🤧  
+  - `statsmodels` 📊  
+- **Machine Learning**:  
+  - `scikit-learn` 🤐  
+- **Visualization**:  
+  - `matplotlib` 🔬  
+  - `seaborn` 🎨  
+- **Notebook Environment**:  
+  - `Jupyter` 🖋️  
+
+---
+
+## 🧠 Machine Learning Model  
+- **Model Used**: ARIMA (Auto-Regressive Integrated Moving Average) 📊  
+  - Applied for time-series forecasting.  
+  - Optimized for accurate predictions using historical milk production data.  
+
+---
+
+## ✨ Acknowledgments  
+- The dataset used for this project.  
+- Open-source libraries and frameworks.  
+
+---
+
+## 🤝 Contributions  
+- **Aswin Deivanayagam S**: [GitHub](https://github.com/Ashprogrammer29)  
+- **Kishore Muruganantham**: [GitHub](https://github.com/KishoreMuruganantham)  
+
